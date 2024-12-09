@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <header>
+        <h1>أرسل استفسارك حول كوكب المشتري</h1>
+    </header>
+    
+   
+    <main>
+        <section class="form-section">
+            <form action="#" method="post">
+                <label for="name">الاسم الكامل:</label>
+                <input type="text" id="name" name="name" placeholder="اكتب اسمك" required>
+                
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                
+                <label for="question">سؤالك:</label>
+                <textarea id="question" name="question" rows="5" placeholder="اكتب استفسارك هنا" required></textarea>
+                <label for="planet-interest">ما الذي يثير اهتمامك في المشتري؟</label>
+                <select id="planet-interest" name="planet-interest">
+                    <option value="moons">أقماره</option>
+                    <option value="storms">العواصف</option>
+                    <option value="orbit">مداره</option>
+                    <option value="other">أخرى</option>
+                </select>
+                
+                <button type="submit">إرسال</button>
+            </form>
+            <div style="text-align: center;">
+                <a href="index.html">
+                    <input type="button" value="ارجع">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 - استكشاف المجموعة الشمسية</p>
+    </footer>
+</body>
+</html>
